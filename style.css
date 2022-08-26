@@ -1,0 +1,93 @@
+:root {
+  --first: #252525;
+  --second: #71e35f;
+  --background-white: #f1eded;
+  --text-grey: lightgrey;
+  --section-padding: 3rem;
+  --font-size: 16px;
+
+}
+
+.navbarright {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-lightgrey {
+  background-color: var(--text-grey);
+}
+
+.pictures-about {
+  height: 50vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+.pictures-services {
+  height: 58vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+.pictures-tutorial {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+body {
+  font-size: var(--font-size);
+
+}
+
+.background-grey {
+  background-color: var(--text-grey);
+}
+
+.background-white {
+  background-color: var(--background-white);
+}
+
+.section {
+  padding: var(--section-padding);
+}
+
+.background-black {
+  background-color: var(--first);
+}
+
+.home-page {
+  height: 70vh;
+  background-color: var(--first);
+
+}
+
+.pfps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fs-7 {
+  font-size: 10px;
+}
+
+.profile-pic {
+  height: 10vh;
+  width: 7%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.quote {
+  background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+}
